@@ -1,0 +1,885 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #090909;
+}
+
+h1 {
+	font-family: 'Droid Serif', serif;
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	padding-top: 30px;
+	color: #fafafa;
+}
+
+h2 {
+	font-family: 'Droid Serif', serif;
+	font-size: 2em;
+	text-align: center;
+	margin: 0;
+	padding-top: 30px;
+	color: #fafafa;
+}
+
+p {
+	font-family:'Roboto', sans-serif;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 0;
+	padding: 50px;
+	color: #fafafa;
+}
+
+header {
+	width: 100%;
+}
+
+.head {
+	max-width: 1100px;
+}
+
+nav {
+	height: auto;
+	max-width: 500px;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: fixed;
+	background-color: #424242;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul {
+	max-width: 440px;
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	display: inline;
+}
+
+nav li {
+	display: inline;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fafafa;
+}
+
+nav img {
+	height: 35px;
+	width: 30px;
+	padding-top: 10px;
+	display: inline;
+	padding-left: 28px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+	padding-right: 10px;
+}
+
+footer {
+	height: 350px;
+	width:100%;
+	background-color: black;
+}
+
+.foot {
+	height: 350px;
+	max-width: 1100px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.logo {
+	height: auto;
+	max-width: 300px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.foot ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.foot li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.foot a {
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fafafa;
+}
+
+.work ul {
+	width: 190px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.work li {
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.me ul {
+	width: 218px;
+	padding-bottom: 50px;
+}
+
+.legal {
+	height: 20px;
+	max-width: 1100px;
+	display:inline;
+}
+
+.copyright {
+	width: 320px;
+	float:left;
+}
+
+.copyright p {
+	float: left;
+}
+
+.develop {
+	width: 370px;
+	float:right;
+}
+
+.develop p {
+	float: right;
+	text-align: right;
+}
+
+/*-------------------------------------------
+
+		INDEX
+
+-------------------------------------------*/
+
+
+.icover img{
+	height: auto;
+	width: 100%;
+}
+
+.ilgnn img{
+	height: auto;
+	width: 100%;
+}
+
+.iccv img {
+	height: auto;
+	width: 100%;
+}
+
+.ilogia img {
+	height: auto;
+	width: 100%;
+}
+
+/*-------------------------------------------
+
+		END INDEX
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+		BIO
+
+-------------------------------------------*/
+
+.biocover img {
+	height: auto;
+	max-width: 100%;
+}
+
+.biointro {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.biointrocon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.out {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.outcon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.lqqlqp {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.lqqlqpcon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.lqh {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.lqh p {
+	padding-bottom: 20px;
+}
+
+.lqh ul {
+	display: block;
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.lqh li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	color: #fafafa;
+	text-align: justify;
+	padding-top: 7px;
+}
+
+.lqhcon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.lqqh {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.lqqhcon {
+	height: 10%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+/*-------------------------------------------
+
+		END BIO
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+		PRENSA
+
+-------------------------------------------*/
+
+.pcover img {
+	height: auto;
+	max-width: 100%;
+}
+
+.pintro {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.pintrocon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.linkcontainer {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.linkcontainercon {
+	max-height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.linkcontainercon ul {
+	height: 100%;
+	max-width: 100%;
+	list-style: none;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 0;
+}
+
+.linkcontainercon li {
+	display: inline;
+	padding-left: 10px;
+	margin: auto;
+}
+
+.linkcontainercon:visited a img {
+	opacity: 0.6;
+}
+
+.prensauno {
+	height: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.prensados {
+	height: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.prensatres {
+	height: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+/*-------------------------------------------
+
+		END PRENSA
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+		LGNN
+
+-------------------------------------------*/
+
+.lgnncover img {
+	height: auto;
+	max-width: 100%;
+}
+
+.lgnnintro {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.lgnnintrocon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.scheme {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.schemecon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.yearone {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.yearonecon {
+	height: 200px;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.yearone p {
+	text-align: center;
+}
+
+.yearone img {
+	height: auto;
+	max-width: 100%;
+}
+
+.original {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.original:hover, .original:hover > .originalcon {
+	background-color: #55b1c1;
+}
+
+.originalcon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.originalcon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.expi {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.expi:hover, .expi:hover > .expicon {
+	background-color: #b73836;
+}
+
+.expicon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.expicon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.expii {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.expii:hover, .expii:hover > .expiicon {
+	background-color: #030016;
+}
+
+.expiicon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.expiicon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.bookii {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.bookii:hover, .bookii:hover > .bookiicon {
+	background-color: #1a0026;
+}
+
+.bookiicon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.bookiicon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+/*-------------------------------------------
+
+		END LGNN
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+		CCV
+
+-------------------------------------------*/
+
+.ccvcover img {
+	height: auto;
+	max-width: 100%;
+}
+
+.ccvintro {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.ccvintrocon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.schemei {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.schemeicon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.schemei img {
+	height: auto;
+	max-width: 100%;
+}
+
+.tenyears {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.tenyearscon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.tenyears img {
+	height: auto;
+	max-width: 100%;
+}
+
+.bolazos {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.bolazos:hover, .bolazos:hover > .bolazoscon {
+	background-color: #11d438;
+}
+
+.bolazoscon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.bolazoscon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.chamuyos {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.chamuyos:hover, .chamuyos:hover > .chamuyoscon {
+	background-color: #fe8f01;
+}
+
+.chamuyoscon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.chamuyoscon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.flasheos {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.flasheos:hover, .flasheos:hover > .flasheoscon {
+	background-color: #b300fc;
+}
+
+.flasheoscon {
+	height: 100%;
+	max-width: 1100px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #161616;
+}
+
+.flasheoscon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+/*-------------------------------------------
+
+		END CCV
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+		LOGIA
+
+-------------------------------------------*/
+
+.lcover img {
+	height: auto;
+	max-width: 100%;
+}
+
+.fragmentoa {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.fragmentoacon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.resumen {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.resumencon {
+	height: 100%;
+	max-width: 1100px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.resumencon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.trick {
+	display: block;
+	position: relative;
+}
+
+.trick img {
+	position: absolute;
+}
+
+.fragmentob {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.fragmentobcon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.logia {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.logiacon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+.logiacon img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.warning {
+	height: 100%;
+	width: 100%;
+	background-color: #090909;
+}
+
+.warningcon {
+	height: 100%;
+	max-width: 1100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin: auto;
+	background-color: #161616;
+}
+
+/*-------------------------------------------
+
+		END LOGIA
+
+-------------------------------------------*/
+
+/*-------------------------------------------
+
+		CONTACT
+
+-------------------------------------------*/
+
+.concover img {
+	height: auto;
+	width: 100%;
+}
+
+.fb img {
+	height: auto;
+	width: 100%;
+}
+
+.tw img {
+	height: auto;
+	width: 100%;
+}
+
+.li img {
+	height: auto;
+	width: 100%;
+}
+
+/*-------------------------------------------
+
+		END CONTACT
+
+-------------------------------------------*/
+
+	
